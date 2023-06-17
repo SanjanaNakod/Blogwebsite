@@ -1,0 +1,58 @@
+@media screen and (max-width: 1300px) {
+  .navigation {
+    flex-direction: column;
+    margin-bottom: 23px;
+  }
+  .nav-left {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  .content-right {
+    display: none;
+  }
+  .home-article {
+    flex-direction: column;
+  }
+  .home-article-img {
+    text-align: center;
+    width: 60vw;
+  }
+  .year-box{
+    top: 10px;
+    font-size: 11px;
+    display: flex;
+}
+.year-box div{
+    padding: 0px 6px;
+    margin: 0;
+
+}
+.row{
+    flex-direction: column;
+}
+}
+@media (min-width:410px) and (max-width: 600px){
+    .year-box{
+        display: none;
+    }
+    .btn{
+        padding: 1px 2px;
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width: 410px) {
+    .bt{
+        display: flex;
+        margin: 10px auto;
+    }
+    .year-box{
+        display: none;
+    }
+    .btn{
+        padding: 1px 2px;
+        font-size: 13px;
+    }
+}
+

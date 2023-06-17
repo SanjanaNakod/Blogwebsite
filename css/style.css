@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navigation {
+  font-family: var(--font1);
+  /* height: 74px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+.nav-left {
+  display: flex;
+}
+.nav-left img{
+  width:  90px;
+  height: 60px;
+
+  /* transition: invert(1); */
+}
+/* .nav-left span {
+  font-size: 30px;
+  padding-top: 10px;
+} */
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+}
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+  padding-bottom: 6px;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.content {
+  display: flex;
+  height: 100%;
+  /* background-color: rgb(241, 242, 252); */
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+  border-radius: 22px;
+}
+.content::after {
+  content: "";
+  background-image: url("../img/image.webp");
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.18;
+}
+.content-left {
+  font-family: var(--font1);
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  flex-direction: column;
+}
+.content-right {
+  /* width: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img {
+  height: 325px;
+  border: 2px solid black;
+  border-radius: 180px;
+}
+.home-articles {
+  /* height: 455px; */
+  position: relative;
+  padding: 12px;
+  margin-top: 23px;
+  background-color: rgba(255, 246, 246, 0.5);
+}
+.year-box{
+  position: absolute;
+  width: 234px;
+  height: 255px;
+  /* background-color: red; */
+  right: 0px;
+  top: 100px;
+}
+.year-box div{
+  margin: 10px 0px;
+}
+
+.home-article {
+  display: flex;
+  margin: 10px;
+}
+.home-article img {
+  width: 300px;
+}
+.home-article-content {
+  align-self: center;
+  padding: 25px;
+}
+.home-article-content a{
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  height: 50px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+.footer a {
+  color: white;
+}
+
+
+.nav-link:hover,
+.nav li:active {
+  border-bottom: 2px solid var(--main-bg-color);
+}
+
